@@ -40,14 +40,6 @@ We begin by examining the data to understand its structure and the relationships
 ## Model Training and Evaluation
 We split the data into training and test sets, scale the features, and train a logistic regression model. The performance of the model is evaluated using accuracy and the ROC-AUC score.
 
-### Accuracy
-- **Training Data Accuracy**: Achieved an accuracy of 86.98% on the training data.
-- **Test Data Accuracy**: Achieved an accuracy of 85.25% on the test data.
-
-### ROC Curve
-![ROC Curve](images/roc_curve.png)
-*The ROC curve and AUC score help evaluate the model's performance in distinguishing between classes.*
-
 ## Results
 Our logistic regression model shows a good performance with an AUC score of 0.93, indicating a high ability to distinguish between patients with and without heart disease.
 
