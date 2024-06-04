@@ -46,7 +46,7 @@ Our logistic regression model shows a good performance with an AUC score of 0.93
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/heart-disease-prediction.git
+   git clone https://github.com/UnnatiSamaiyar/Heart-Disease-Prediction---Machine-Learning.git
 2. Navigate to the project directory:
     ```bash
     cd heart-disease-prediction
