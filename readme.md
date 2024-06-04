@@ -22,12 +22,20 @@ The dataset used in this project is the heart disease dataset from the UCI Machi
 We begin by examining the data to understand its structure and the relationships between variables.
 
 ### Histograms of Features
-![Histograms of Heart Disease Data Features](images/histograms.png)
+![Histograms of Heart Disease Data Features](images/histogram.png)
 *Histograms show the distribution of each feature in the dataset.*
 
 ### Correlation Matrix
-![Correlation Matrix of Heart Disease Data](images/correlation_matrix.png)
+![Correlation Matrix of Heart Disease Data](images/matrix.png)
 *The correlation matrix helps identify relationships between features.*
+
+### Receiver Operating Characteristic (ROC) Curve
+![Receiver Operating Characteristic (ROC) Curve](images/curve.png)
+*The Receiver Operating Characteristic (ROC) Curve of the data.*
+
+### Shape of heart data and accuracy rates
+![Shape of Heart Data and Accuracy Rates](images/accuracy.png)
+*The Shape of Heart Data and Accuracy Rates.*
 
 ## Model Training and Evaluation
 We split the data into training and test sets, scale the features, and train a logistic regression model. The performance of the model is evaluated using accuracy and the ROC-AUC score.
@@ -47,3 +55,18 @@ Our logistic regression model shows a good performance with an AUC score of 0.93
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/heart-disease-prediction.git
+2. Navigate to the project directory:
+    ```bash
+    cd heart-disease-prediction
+3. Install the required dependencies
+    ```bash
+    pip install -r requirements.txt
+4. Run the Jupyter notebook to train the model and evaluate its performance:
+    ```bash
+    jupyter notebook
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request with any improvements or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
